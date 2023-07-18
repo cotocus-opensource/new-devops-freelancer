@@ -88,6 +88,7 @@
 
     h1 {
         text-align: center;
+        color: blue;
     }
 </style>
 
@@ -107,23 +108,20 @@
         <ul>
           <li><a href="index.html">Home</a></li>
 
-          <li class="dropdown"><a href="about.html"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="about-us.html"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
              
               <li><a href="team.html">Team</a></li>
-              <li><a href="partners.html">Partners</a></li>
+              <li><a href="partners.html" class="active">Partners</a></li>
               <li><a href="testimonials.html">Testimonials</a></li>
               
             </ul>
           </li>
-
-        
           <li><a href="services.html">Services</a></li>
-          <li><a href="dataops.html">DataOps</a></li>
           <li><a href="devops.html">DevOps</a></li>
+          <li><a href="sre.html">SRE</a></li>
           <li><a href="devsecops.html">DevSecOps</a></li>
           <li><a href="freelancers.html">FreeLancer</a></li>
-          <li><a href="sre.html">SRE</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="contact-us.html">Contact</a></li>
 
@@ -159,7 +157,7 @@
     </section><!-- End Breadcrumbs -->
 
    <!-- ======= Our Partners Section ======= -->
-   <h1>Our Partners</h1>
+   <h1><u>Our Partners</u></h1>
 
     <div id="partners-container">
         <div class="partner">
@@ -429,248 +427,4 @@
 
 </body>
 
-</html>
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Partners</title>
-    <style>
-        /* Add your own custom CSS styles here */
-        #partners-container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .partner {
-            flex-basis: 25%;
-            margin: 10px;
-            transition: transform 0.3s;
-        }
-
-        .partner:hover {
-            transform: scale(1.05);
-        }
-
-        .card {
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            background-color: #fff;
-            padding: 10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            transition: box-shadow 0.3s;
-        }
-
-        .card:hover {
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .card img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .card-content {
-            text-align: center;
-            padding: 10px;
-        }
-
-        .card h2 {
-            color: #333;
-            margin-top: 10px;
-        }
-
-        .card p {
-            color: #777;
-        }
-
-        h1 {
-            text-align: center;
-        }
-    </style>
-
-</head>
-
-<body>
-    <h1>Our Partners</h1>
-
-    <div id="partners-container">
-        <div class="partner">
-            <a href="http://www.agileanddevops.com/">
-                <div class="card">
-                    <img src="assets/img/partners/agile-and-devops.png" alt="Partner 1">
-                    <div class="card-content">
-                        <h2>agile-and-devops</h2>
-
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="partner">
-            <a href="https://www.bestdevops.com/">
-                <div class="card">
-                    <img src="assets/img/partners/bestdevops.png" alt="Partner 2">
-                    <div class="card-content">
-                        <h2>bestdevops</h2>
-
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="partner">
-            <a href="http://build2release.com/">
-                <div class="card">
-                    <img src="assets/img/partners/build2release.png" alt="Partner 3">
-                    <div class="card-content">
-                        <h2>build2release</h2>
-
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="partner">
-            <a href="http://ww38.devopscertification.co/">
-                <div class="card">
-                    <img src="assets/img/partners/devopscertification.png" alt="Partner 3">
-                    <div class="card-content">
-                        <h2>devopscertification</h2>
-
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="partner">
-            <a href="http://www.devopsconsultant.in/">
-                <div class="card">
-                    <img src="assets/img/partners/devopsconsultant.png" alt="Partner 3">
-                    <div class="card-content">
-                        <h2>devopsconsultant</h2>
-
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="partner">
-            <a href="https://www.devopsconsulting.in/">
-                <div class="card">
-                    <img src="assets/img/partners/devopsconsulting.png" alt="Partner 3">
-                    <div class="card-content">
-                        <h2>devopsconsulting</h2>
-
-                    </div>
-                </div>
-            </a>
-        </div>
-
-
-        <div class="partner">
-            <a href="https://www.devopsfreelancer.com/">
-                <div class="card">
-                    <img src="assets/img/partners/devopsfreelancer.png" alt="Partner 3">
-                    <div class="card-content">
-                        <h2>devopsfreelancer</h2>
-
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="partner">
-            <a href="https://www.devopsschool.com/">
-                <div class="card">
-                    <img src="assets/img/partners/devopsschool.png" alt="Partner 4">
-                    <div class="card-content">
-                        <h2>devopsschool</h2>
-
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="partner">
-            <a href="https://www.devopstrainer.in/">
-                <div class="card">
-                    <img src="assets/img/partners/devopstrainer.png" alt="Partner 4">
-                    <div class="card-content">
-                        <h2>devopstrainer</h2>
-
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="partner">
-            <a href="https://devopstraining.xyz/">
-                <div class="card">
-                    <img src="assets/img/partners/devopstraining.png" alt="Partner 4">
-                    <div class="card-content">
-                        <h2>devopstraining</h2>
-
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="partner">
-            <a href="https://devopstraining.xyz/">
-                <div class="card">
-                    <img src="assets/img/partners/devpso.png" alt="Partner 4">
-                    <div class="card-content">
-                        <h2>devpso</h2>
-
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="partner">
-            <a href="http://www.learndevops.in/">
-                <div class="card">
-                    <img src="assets/img/partners/learndevops.png" alt="Partner 4">
-                    <div class="card-content">
-                        <h2>learndevops</h2>
-
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="partner">
-            <a href="https://www.rajeshkumar.xyz/">
-                <div class="card">
-                    <img src="assets/img/partners/rajeshkumar.png" alt="Partner 4">
-                    <div class="card-content">
-                        <h2>rajeshkumar</h2>
-
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="partner">
-            <a href="https://www.scmgalaxy.com/">
-                <div class="card">
-                    <img src="assets/img/partners/scmgalaxy.png" alt="Partner 4">
-                    <div class="card-content">
-                        <h2>scmgalaxy</h2>
-
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- Add more partner divs as needed -->
-    </div>
-
-</body>
-
-</html> -->
+</html> 
